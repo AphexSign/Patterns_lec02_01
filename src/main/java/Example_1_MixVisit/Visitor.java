@@ -12,7 +12,11 @@ public class Visitor {
                         new Employee("Carlos", 50000)
                 });
         CEO.setBonus(1000000);
-        CEO.accept(new PrettyPrintVisitor(), initialIndent);
+       CEO.accept(new PrettyPrintVisitor(), initialIndent);
+
+
+
+
 
     }
 

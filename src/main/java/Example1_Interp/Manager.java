@@ -44,6 +44,7 @@ class Manager extends Employee {
         subs.remove(sub);
     }
 
+    //В каждом классе вызываем метод PrettyPrint + проходимся по всей коллекции
     @Override
     public void prettyPrint(String initialIndent) {
         System.out.println(initialIndent + WorkExp.getDetails(this));

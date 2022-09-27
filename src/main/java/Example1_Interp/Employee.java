@@ -20,7 +20,7 @@ class Employee {
         return name.equals(e.name);
 
     }
-
+    //В каждом классе вызываем свой метод PrettyPrint
         public void prettyPrint(String initialIndent) {
         System.out.println(initialIndent + WorkExp.getDetails(this));
     }
